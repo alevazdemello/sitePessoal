@@ -1,0 +1,129 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+
+ 
+
+    body {
+        background: rgb(1,1,9);
+        background: linear-gradient(180deg, rgba(1,1,9,0.9556197478991597) 0%, rgba(86,9,121,1) 52%, rgba(241,107,204,1) 100%);
+    }
+
+    header {
+        background: #ffffff;
+        height: 100vh;
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        color: white;
+        background-image: linear-gradient(#e4e4e4 1px, transparent 1px),
+        linear-gradient(90deg, #e4e4e4 1px, transparent 1px);
+        background-size: 10px 10px, 10px 10px, 2px 2px, 2px 2px;
+    }
+
+    header h1 {
+        font-size: 5em;
+        line-height: 1.2;
+        text-align: center;
+        color: #ff7675;
+        text-shadow: 1px 1px 1px #a74a4a;
+ 
+        top: 0;
+        position: sticky;
+    }
+
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+    }
+
+    ul {
+        background: #b575ff;
+        display: flex;
+        list-style: none;
+        width: 100%;
+        font-size: 18px;
+        height: 10vh;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+
+    section {
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 200;
+        line-height: 2;
+        color: rgb(58, 58, 58);
+        padding-top: 12vh;
+    }
+
+    h1 {
+        color: #d63031;
+        font-size: 43px;
+        line-height: 55px;
+        margin-bottom: 20px;
+    }
+
+    .link {
+        color:#d63031;
+        display: inline-block;
+        font-size: 20px;
+        margin: 50px 0 100px;
+        border-bottom: 1px dashed #d63031;
+        text-transform: none;
+    }
+
+  
+
+
+    .container {
+        width: 500%;
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: rgb(247, 0, 0);
+    }
+
+    .container-2 {
+        width: 500%;
+        max-width: 800px;
+        margin: 500px auto;
+        align-items:center;
+        background-color: black;
+    }
+
+    #div-box {
+        background-color: transparent;
+        font-size: 20px;
+        color: #e4e4e4;
+        width: 800px;
+        height: 500px;
+        position: sticky;
+        bottom: 50px;
+        z-index: 10;
+        text-align: right;
+
+    }
+    
+
+    #div-box-2 {
+        background-color: transparent;
+        font-size: 20px;
+        color: #e4e4e4;
+        width: 10%;
+        height: 1%;
+        position: sticky;
+        bottom: 50px;
+        z-index: 1;
+        border-radius: 50px;
+
+    }
