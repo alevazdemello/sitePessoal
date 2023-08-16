@@ -4,16 +4,14 @@
         font-family: sans-serif;
     }
 
- 
-
     body {
         background: rgb(1,1,9);
-        background: linear-gradient(180deg, rgba(1,1,9,0.9556197478991597) 0%, rgba(86,9,121,1) 52%, rgba(241,107,204,1) 100%);
+        background-image: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
     }
 
     header {
         background: #ffffff;
-        height: 100vh;
+        height: 80vh;
         display: flex;
         align-items: top;
         justify-content: center;
@@ -27,7 +25,7 @@
         font-size: 5em;
         line-height: 1.2;
         text-align: center;
-        color: #ff7675;
+        color: #000000;
         text-shadow: 1px 1px 1px #a74a4a;
  
         top: 0;
@@ -41,7 +39,7 @@
     }
 
     ul {
-        background: #b575ff;
+        background: #000000;
         display: flex;
         list-style: none;
         width: 100%;
@@ -67,12 +65,7 @@
         padding-top: 12vh;
     }
 
-    h1 {
-        color: #d63031;
-        font-size: 43px;
-        line-height: 55px;
-        margin-bottom: 20px;
-    }
+
 
     .link {
         color:#d63031;
@@ -90,16 +83,11 @@
         width: 500%;
         max-width: 800px;
         margin: 50px auto;
-        background-color: rgb(247, 0, 0);
+        background-color: rgb(255, 255, 255);
+        padding: 5%;
+        border-radius: 25px;
     }
 
-    .container-2 {
-        width: 500%;
-        max-width: 800px;
-        margin: 500px auto;
-        align-items:center;
-        background-color: black;
-    }
 
     #div-box {
         background-color: transparent;
