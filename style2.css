@@ -1,0 +1,64 @@
+@media (min-width: 1900px) {
+    body {
+        background-size: 870px;
+        background-color: rgb(201, 31, 31);
+    }
+
+    header h1 {
+        font-size: 9em;
+    }
+}
+
+
+@media (max-width: 1700px) {
+    body {
+        background-size: 800px;
+        background-color: black;
+    }
+
+    header h1 {
+        font-size: 5em;
+    }
+}
+
+@media (max-width: 1550px) {
+    body {
+        background-size: 750px;
+        background-color: pink;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+
+@media (max-width: 1440px) {
+    body {
+        background-size: 700px;
+        background-color: brown;
+    }
+
+}
+
+@media (max-width: 1330px) {
+    body {
+        background-size: 650px;
+        background-color: aqua;
+    }
+
+}
+
+@media (max-width: 1220px) {
+    body {
+        background-size: 600px;
+    }
+
+}
+
+@media (max-width: 1550px) {
+    body {
+        background-size: 750px;
+    }
+
+}
